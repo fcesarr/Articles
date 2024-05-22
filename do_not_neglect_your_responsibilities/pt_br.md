@@ -41,3 +41,5 @@ Penso que a melhor opção é que a camada `Service` dependa da interface `IVali
 *Exemplo de como, mesmo usando outra biblioteca, as validações estão sendo executadas na camada `Service`*
 
 > Não deixe nas mãos de bibliotecas de terceiros suas responsabilidades.
+
+Existem muitos outros cenários em que por conveniência deixamos comportamentos fundamentais das nossas aplicações nas mãos de bibliotecas terceiras, dependendo de N fatores, pode ser a melhor solução pegarmos esse atalho. Porém é importante termos em mente, que se possível não peguemos esses atalhos ou quando não pudermos evitar e se for muito necessário, pegue o atalho mas marque como `TODO` e mais rápido possível deixe de usar esse atalho. Proteja seu código, mantenha-lo limpo, desacoplado e aprova de mudanças, seguindo essas diretrizes você vai subir a régua das suas entregas e pode até mudar.
